@@ -15,7 +15,7 @@ namespace ChatClient
 
             Receiver receiver = new Receiver(this);
             receiver.Receive(myIp, 13000);
-            TenSecondsSender();
+            //TenSecondsSender();
         }
 
         private void TenSecondsSender()

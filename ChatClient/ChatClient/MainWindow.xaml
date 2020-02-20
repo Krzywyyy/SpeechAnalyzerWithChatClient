@@ -3,13 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="800" WindowStyle="None">
+        Title="MainWindow" Height="400" Width="800">
     <Grid>
         <Grid HorizontalAlignment="Right" Width="400" Background="Gray">
             <TextBlock Name="user" Margin="10" FontSize="36" FontFamily="Stencil" Foreground="White"/>
         </Grid>
         <Image Name="denied" Source="accessDenied.jpg" HorizontalAlignment="Left" Visibility="Hidden"/>
-        <Image Name="microphone" Source="microphone.png" HorizontalAlignment="Left" Margin="20,20"/>
+        <Image Name="microphone" gif:ImageBehavior.AnimatedSource="animacja.gif" HorizontalAlignment="Left" Margin="5,20"/>
     </Grid>
 </Window>

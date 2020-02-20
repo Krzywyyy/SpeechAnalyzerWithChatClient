@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("microphone.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("animacja.gif")]
 
 
